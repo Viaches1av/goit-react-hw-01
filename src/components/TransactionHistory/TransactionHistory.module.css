@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: solid 1px #000;
+}
+td::first-letter {
+  text-transform: uppercase;
+}
+thead {
+  background-color: #333;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #cccc;
+  color: #000;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+  color: #000;
+  
+}
